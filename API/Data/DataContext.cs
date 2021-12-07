@@ -1,4 +1,5 @@
-using API.models;
+using System;
+using API.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data
@@ -9,6 +10,5 @@ namespace API.Data
 
         public DbSet<Funcionario> Funcionarios { get; set; }
        public DbSet<FolhaPagamento> FolhasPagamento { get; set; }
-
     }
 }
